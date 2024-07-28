@@ -1,0 +1,144 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #a31b3a, #702468);
+}
+
+.area
+{
+    position: relative;
+    background-color: rgba(252, 252, 252, 0.35);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    height: 70%;
+    width: 35%;
+}
+
+h1
+{
+    position: absolute;
+    top: 25px;
+}
+
+.score
+{
+    position: relative;
+    bottom: 25px;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #a31b3a;
+}
+
+.current
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 24px;
+    background-color: #f00a40;
+    color: azure;
+}
+
+.one
+{
+    border-radius: 24px 0 0 24px;
+}
+
+.two
+{
+    border-radius: 0 24px 24px 0;
+}
+
+.current0
+{
+    margin-top: 8px;
+    font-size: 24px;
+}
+
+.current1
+{
+    margin-top: 8px;
+    font-size: 24px;
+}
+
+button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    backdrop-filter: blur(25px);
+    box-shadow: #1f1e1e 3px 2px 5px;
+    cursor: pointer;
+}
+
+.button
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 40%;
+    z-index: 1;
+    
+}
+
+.new
+{
+    position: relative;
+    top: -65px;
+}
+
+.bottom
+{
+    position: relative;
+    bottom: -85px;
+}
+
+img
+{
+    position: absolute;
+    margin-bottom: 35px;
+    box-shadow: #252424 4px 3px 5px 2px;
+    width: 95px;
+}
+
+.opacity
+{
+    opacity: 60%;
+}
+
+.opacity
+{
+    opacity: 60%;
+}
+
+.hidden
+{
+    display: none;
+}
