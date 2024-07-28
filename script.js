@@ -49,7 +49,7 @@ roll.addEventListener("click", function()
 {
     diceEl.classList.remove("hidden");
     const dice = Math.trunc(Math.random()*6)+1;
-    diceEl.src = `./00.Pictures/dice-${dice}.png`;
+    diceEl.src = `./images/dice-${dice}.png`;
     if(dice!=1)
     {
         current += dice;
